@@ -1,0 +1,37 @@
+ @charset "UTF-8";
+
+p{
+    text-align: justify;
+}
+
+ body{
+    background-color: #E1D1F0;
+ }
+
+.cardiovascular{
+    height: 240px;
+    width: 305px;
+    display: block;
+    padding: 30px;
+}
+
+.diabetes2{
+    height: 240px;
+    width: 305px;
+    display: block;
+    padding: 30px;
+}
+
+.articulares{
+    height: 240px;
+    width: 305px;
+    display: block;
+    padding: 30px;
+}
+
+.figado{
+    height: 240px;
+    width: 305px;
+    display: block;
+    padding: 30px;
+}
