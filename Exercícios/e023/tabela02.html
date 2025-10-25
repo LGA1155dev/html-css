@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            box-shadow: rgba(48, 48, 48, 0.247) 10px 10px 10px;
+        }
+        table{
+
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            width: 100px;
+
+        }
+        td.cinza{
+            background-color: lightslategray;
+        }
+
+        td#bold{
+            font-weight: bolder;
+        }
+        td.azul{
+            background-color: lightblue;
+        }
+        td.escuro{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="escuro">Grupos</td>
+            <td class="escuro">Nomes</td>
+            <td class="escuro" colspan="3">Filmes</td>
+        </tr>
+
+        <tr>
+            <td class="escuro" rowspan="4">Mulheres</td>
+        </tr>
+        <tr>
+            <td class="cinza" id="bold">Ana Maria Santos</td>
+            <td class="cinza">Alien</td>
+            <td class="cinza">Rambo</td>
+            <td class="cinza">Vingadores</td>
+        </tr>
+        <tr>
+            <td class="azul">Beatriz Souza</td>
+            <td class="azul">Hulk</td>
+            <td class="azul">Inception</td>
+            <td class="azul">Batman</td>
+        </tr>
+        <tr>
+            <td class="cinza" id="bold">Claudia Melo</td>
+            <td class="cinza">Oblivion</td>
+            <td class="cinza">Matrix</td>
+            <td class="cinza">Big Hero</td>
+        </tr>
+        <tr>
+            <td class="escuro" rowspan="4">Homens</td>
+        </tr>
+        <tr>
+            <td class="azul">Bruno Mendonça</td>
+            <td class="azul">Intocaveis</td>
+            <td class="azul">Aminesia</td>
+            <td class="azul">Gladiador</td>
+        </tr>
+        <tr>
+            <td class="cinza" id="bold">Daniel Lourenço</td>
+            <td class="cinza">Wall-E</td>
+            <td class="cinza">Old boy</td>
+            <td class="cinza">Dangal</td>
+        </tr>
+        <tr>
+            <td class="azul">Fabiano Mota</td>
+            <td class="azul">Staw Wars V</td>
+            <td class="azul">Taxi Driver</td>
+            <td class="azul">Toy story</td>
+        </tr>
+    </table>
+</body>
+</html>
